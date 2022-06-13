@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Satheesh",
+      "email": "Sat@mail.com",
+      "address": "South street"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "email": "john@mail.com",
+      "address": "North street"
+    },
+    {
+      "id": 3,
+      "name": "Robert",
+      "email": "robert@mail.com",
+      "address": "East street"
+    },
+    {
+      "id": 4,
+      "name": "Mani",
+      "email": "mani@mail.com",
+      "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar, lorem nec volutpat commodo, magna erat ultricies dui, et venenatis justo libero efficitur risus. Nunc diam felis, dignissim non arcu et, laoreet pulvinar mi. Nunc dictum lacinia feugiat. Vivamus semper rutrum porta. Maecenas finibus mauris id nibh commodo, at mattis orci feugiat. Ut interdum urna non nibh venenatis, a cursus augue mattis. Aliquam odio turpis, varius vehicula dui sit amet, commodo faucibus tellus. Sed eget urna eu magna ullamcorper imperdiet accumsan sed ex. Suspendisse potenti. Nullam diam turpis, congue eu eros at, rutrum auctor justo. Maecenas euismod tortor turpis, ac ultrices lectus sodales in."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "author": "Turgut"
+    },
+    {
+      "id": 2,
+      "body": "0 pts FTW",
+      "author": "Aziz"
+    },
+    {
+      "id": 3,
+      "body": "Hola como estas",
+      "author": "Luis"
+    },
+    {
+      "id": 4,
+      "body": "magic amazing wow magic",
+      "author": "Laila"
+    },
+    {
+      "id": 5,
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar, lorem nec volutpat commodo, magna erat ultricies dui, et venenatis justo libero efficitur risus. Nunc diam felis, dignissim non arcu et, laoreet pulvinar mi. Nunc dictum lacinia feugiat. Vivamus semper rutrum porta. Maecenas finibus mauris id nibh commodo, at mattis orci feugiat. Ut interdum urna non nibh venenatis, a cursus augue mattis. Aliquam odio turpis, varius vehicula dui sit amet, commodo faucibus tellus. Sed eget urna eu magna ullamcorper imperdiet accumsan sed ex. Suspendisse potenti. Nullam diam turpis, congue eu eros at, rutrum auctor justo. Maecenas euismod tortor turpis, ac ultrices lectus sodales in.",
+      "author": "Fatima"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

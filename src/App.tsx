@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import PostList from "./components/PostList";
+import { useGetPosts } from "./services";
 
-function App() {
+const App = () => {
+  const postQuery = useGetPosts();
+
+  if (postQuery.error) {
+    return (
+      <>
+        <h1>Error!</h1>
+        <code>{JSON.stringify(postQuery.error)}</code>
+      </>
+    );
+  }
+
+  if (postQuery.loading) {
+    return <h1>Loading...</h1>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <PostList posts={postQuery.data} />
+    </>
   );
-}
+};
 
 export default App;
